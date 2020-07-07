@@ -1,0 +1,36 @@
+.box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+    width: 600px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-radius: 4px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px ;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.box .imagebox {
+    width: 150px;
+    flex: 0 0 150px;
+}
+.box .imagebox img {
+    max-width: 100%;
+}
+
+.popup .overlay {
+position: fixed;
+top: 0px;
+left: 0px;
+width: 100vw;
+height: 100vh;
+background: rgba(0, 0, 0, 0.7);
+z-index: 1;
+display: none;
+}
+
